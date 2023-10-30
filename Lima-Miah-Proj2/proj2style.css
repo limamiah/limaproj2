@@ -1,0 +1,38 @@
+body			{ background-image: url(https://imgur.com/a/6WAqOLG); 
+			  background-attachment: fixed;
+			  background-repeat: no-repeat;
+}
+	  
+.special 	{
+			  border-style: solid;
+              border-color: black;
+              border-width: 10px;
+              margin-left: auto;
+			  margin-right: auto;
+			  text-align: center;
+}
+
+p 			{ 
+			  color: orange;
+			  text-align: center; 
+}
+			
+h2 			{
+			  color: black;
+			  text-align: center;
+}
+			
+.cell 		{
+              width: 60px;
+              height: 60px;
+              margin: 10px;
+              text-align: center;
+              background-color: orange;
+              font-weight: bold;
+              font-size: large;
+              padding: 10px;
+}
+
+.empty 		{
+              background-color: black;
+}

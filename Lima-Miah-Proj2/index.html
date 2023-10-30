@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Let's Play a Puzzle Game!</title>
+		<link rel="stylesheet" type="text/css" href="proj2style.css">
+		<script src="proj2JavaScript.js" type="text/javascript"></script>
+    </head>
+
+    <body onload="start()">
+        <h2>Let's Play a Puzzle Game!!</h2>
+        <h2>Lima Miah</h2>
+        <p>To play, simply click on the "cell" blocks in the table to arrange the scrambled numbers in sequential order.</p>
+        <p>Achieve the best play against your rivals with as much fewer moves as possible, in the shortest period of time.</p>
+
+        <p id="moves">Number of Moves thus far: </p>
+        <p id="time">Time spent in the current game: </p>
+
+        <p>
+            <button onclick="simpleGame()">Simple Game!</button>
+            <button onclick="window.location.reload()">Start New Game</button>
+        </p>
+        <table class="special">
+            <tr>
+                <td class="cell" onclick="doClick(this)" id="0">1</td>
+                <td class="cell" onclick="doClick(this)" id="1">2</td>
+                <td class="cell" onclick="doClick(this)" id="2">3</td>
+                <td class="cell" onclick="doClick(this)" id="3">4</td>
+            </tr>
+            <tr>
+                <td class="cell" onclick="doClick(this)" id="4">5</td>
+                <td class="cell" onclick="doClick(this)" id="5">6</td>
+                <td class="cell" onclick="doClick(this)" id="6">7</td>
+                <td class="cell" onclick="doClick(this)" id="7">8</td>
+            </tr>
+            <tr>
+                <td class="cell" onclick="doClick(this)" id="8">9</td>
+                <td class="cell" onclick="doClick(this)" id="9">10</td>
+                <td class="cell" onclick="doClick(this)" id="10">11</td>
+                <td class="cell" onclick="doClick(this)" id="11">12</td>
+            </tr>
+            <tr>
+                <td class="cell" onclick="doClick(this)" id="12">13</td>
+                <td class="cell" onclick="doClick(this)" id="13">14</td>
+                <td class="cell" onclick="doClick(this)" id="14">15</td>
+                <td class="cell" onclick="doClick(this)" id="15"></td>
+            </tr>
+        </table>
+    </body>
+</html>
